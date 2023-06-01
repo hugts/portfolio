@@ -1,0 +1,161 @@
+/* Styles de base */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #aaa;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .cta-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Styles spécifiques à la page d'accueil */
+  
+  #presentation {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #presentation h2 {
+    color: #fff;
+    font-size: 72px;
+    margin-bottom: 20px;
+    }
+
+/* Styles pour le titre "Bonjour" */
+h1 {
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Styles pour le sous-titre "Je m'appelle..." */
+  h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Styles pour la section de présentation */
+  .section-presentation {
+    padding: 4rem;
+    background-color: #fff;
+    margin-top: 5rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles pour le texte de présentation */
+  .presentation-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Styles pour le bouton "Voir mon travail" */
+  .btn-voir-travail {
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #5eaaa8;
+    border: none;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn-voir-travail:hover {
+    background-color: #346f6d;
+  }
+  
+  
