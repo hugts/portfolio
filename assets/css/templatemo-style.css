@@ -380,6 +380,11 @@ button:hover {
     margin-top: 30px;
 }
 
+/* About me */
+
+.about-me span {
+    font: 600 30px 'Poppins', sans-serif;
+}
 
 /* Services */
 
@@ -401,6 +406,7 @@ button:hover {
 
 .service-item p {
     transition: all 0.5s;
+    font-size: 1.2em;
 }
 
 .service-item:hover {
@@ -463,6 +469,10 @@ button:hover {
 section.my-work .section-heading {
     text-align: center;
     padding: 80px 45px 50px 45px;
+}
+
+.my-work p {
+    font-size: 1.2em;
 }
 
 .isotope-wrapper {
