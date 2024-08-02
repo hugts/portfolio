@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
     font-family: 'Lato', sans-serif;
-}
-
-#page-wraper {
     background-color: #1e1e1e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: auto;
+}
+
+#page-wraper {
     width: 100%;
 }
 
@@ -273,7 +274,11 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 20px;
+}
+
+.section-heading * {
+    margin: 20px 0;
 }
 
 .section-heading h2 {
@@ -684,6 +689,13 @@ section.contact-me {
     .right-image-post img {
         margin-top: 30px;
     }
+
+    /* A changer en fonction de l'emplacement de l'image*/
+    .first-image-post img {
+        margin-top: 30px;
+        /*margin-bottom: 30px;*/
+    }
+
     .isotope-item {
         border-bottom: none;
         text-align: center;
